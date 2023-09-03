@@ -1,0 +1,97 @@
+[{
+    "AccountType" : "Manager" , 
+    "Area" : "Kosim" , 
+    "AreaCode" : "AG002" , 
+    "Email" :"ayman@ayman.com" , 
+    "Hlevel" : "2" , 
+    "Password" : "123" ,
+    "PhoneNumber" : "01210271277" , 
+    "UserCode" : "AA01" ,
+    "Username" : "Ayman" , 
+    "confirmPassword" : "123" , 
+    "id"  : 22 
+},
+
+{
+    "AccountType" : "Manager" , 
+    "Area" : "Kosim" , 
+    "AreaCode" : "AG002" , 
+    "Email" :"ayman@ayman.com" , 
+    "Hlevel" : "2" , 
+    "Password" : "123" ,
+    "PhoneNumber" : "01210271277" , 
+    "UserCode" : "AG002" ,
+    "Username" : "Ayman" , 
+    "confirmPassword" : "123" , 
+    "id"  : 23
+},
+
+{
+    "AccountType" : "Manager" , 
+    "Area" : "Kosim" , 
+    "AreaCode" : "AG002" , 
+    "Email" :"ayman@ayman.com" , 
+    "Hlevel" : "2" , 
+    "Password" : "123" ,
+    "PhoneNumber" : "01210271277" , 
+    "UserCode" : "AG002" ,
+    "Username" : "Ayman" , 
+    "confirmPassword" : "123" , 
+    "id"  : 5 
+},
+
+{
+    "AccountType" : "Manager" , 
+    "Area" : "Kosim" , 
+    "AreaCode" : "AG002" , 
+    "Email" :"ayman@ayman.com" , 
+    "Hlevel" : "2" , 
+    "Password" : "123" ,
+    "PhoneNumber" : "01210271277" , 
+    "UserCode" : "AS00" ,
+    "Username" : "Ayman" , 
+    "confirmPassword" : "123" , 
+    "id"  : 6 
+},
+
+{
+    "AccountType" : "Manager" , 
+    "Area" : "Kosim" , 
+    "AreaCode" : "AG002" , 
+    "Email" :"ayman@ayman.com" , 
+    "Hlevel" : "2" , 
+    "Password" : "123" ,
+    "PhoneNumber" : "01210271277" , 
+    "UserCode" : "AS04" ,
+    "Username" : "Ayman" , 
+    "confirmPassword" : "123" , 
+    "id"  : 6 
+},
+
+{
+    "AccountType" : "Manager" , 
+    "Area" : "Kosim" , 
+    "AreaCode" : "AG002" , 
+    "Email" :"ayman@ayman.com" , 
+    "Hlevel" : "2" , 
+    "Password" : "123" ,
+    "PhoneNumber" : "01210271277" , 
+    "UserCode" : "AS900" ,
+    "Username" : "Ayman" , 
+    "confirmPassword" : "123" , 
+    "id"  : 69
+},
+ 
+{
+    "AccountType" : "Manager" , 
+    "Area" : "Kosim" , 
+    "AreaCode" : "AG002" , 
+    "Email" :"ayman@ayman.com" , 
+    "Hlevel" : "2" , 
+    "Password" : "123" ,
+    "PhoneNumber" : "01210271277" , 
+    "UserCode" : "MB08" ,
+    "Username" : "Ayman" , 
+    "confirmPassword" : "123" , 
+    "id"  : 45 
+}]

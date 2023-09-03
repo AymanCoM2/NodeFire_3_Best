@@ -1,19 +1,40 @@
 const { db } = require("./utils/admin");
 
 exports.addHuman = async (req, res) => {
-  const { UserName, ID } = req.body;
+  const {
+    AccountType,
+    Area,
+    AreaCode,
+    Email,
+    Hlevel,
+    Password,
+    PhoneNumber,
+    UserCode,
+    Username,
+    confirmPassword,
+    id,
+  } = req.body;
   console.log("Request Body");
   console.log(req.body);
-  if (!UserName || !ID) {
-    return res
-      .status(400)
-      .json({ error: "UserName and ID are required fields" });
-  }
+  // if (!UserName || !ID) {
+  //   return res
+  //     .status(400)
+  //     .json({ error: "UserName and ID are required fields" });
+  // }
   const humansRef = db.collection("Users");
   try {
     const docRef = await humansRef.add({
-      UserName,
-      ID,
+      AccountType,
+      Area,
+      AreaCode,
+      Email,
+      Hlevel,
+      Password,
+      PhoneNumber,
+      UserCode,
+      Username,
+      confirmPassword,
+      id,
     });
 
     const newDocumentId = docRef.id;
