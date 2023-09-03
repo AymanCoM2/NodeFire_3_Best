@@ -1,6 +1,6 @@
 const { db } = require("./utils/admin");
 
-exports.human = async (req, res) => {
+exports.humans = async (req, res) => {
   const humansRef = db.collection("Users");
   // const humansRef = db.collection("collection1");
   try {

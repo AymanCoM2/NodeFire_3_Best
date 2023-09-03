@@ -1,6 +1,6 @@
 var express = require("express");
 
-const { human } = require("./dabo");
+const { humans } = require("./humans");
 const { addHuman } = require("./addHuman");
 const bodyParser = require("body-parser");
 
@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5050;
 
 app.use(bodyParser.json());
 
-app.get("/humans", human);
+app.get("/humans", humans);
 app.post("/addHuman", addHuman);
 
 app.get("/", (req, res) => {
